@@ -4,7 +4,7 @@ services:
 
   pocket-node:
     build: .
-    image: ianblenke/pocket-node
+    image: sofwerx/pocket-node
     container_name: pocket-node
     hostname: pocket-node
     restart: on-failure
